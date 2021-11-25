@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaisa 13</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3974f1445c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/kaisa1m3.png" alt="kaisa13" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/about.html">ABOUT</a></li>
+            <li><a href="/gallery.html">GALLERY</a></li>
+            <li><a href="/prices.html">PRICES</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!---About us content--->
+    <section class="about-uss">
+      <div class="row">
+        <div class="about-cols">
+          <h1>We provide an Atmospheric Party</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            voluptatem iusto quis nobis possimus dolorum maxime sit deserunt.
+            Est at quo impedit voluptate, ipsum obcaecati corporis ab non vitae
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            ducimus expedita dicta omnis iusto pariatur alias consequuntur,
+            minima, corporis dolores sunt eveniet quae, voluptates dolore nihil.
+            Voluptatibus fuga similique quidem?
+          </p>
+          <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-cols">
+          <img src="/images/symppis-tilat-11_orig.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!---footer--->
+
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>lorem100</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-envelope"></i>
+      </div>
+    </section>
+
+    <!---JavaScript for toggle menu--->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
