@@ -6,13 +6,13 @@ const selectedIn = null;
 
 imageIndexes.forEach(i => {
     const image = document.createElement('img');
-    image.src = `/gallery_images/gallery_img${i}.jpg`;
+    image.src = `/kaisa13/gallery_images/gallery_img${i}.jpg`;
     image.alt = `Photos inside of the rental space`;
     image.classList.add('galleryImg');
 
     image.addEventListener('click', () => {
         popup.style.transform = 'translateY(0)';
-        selectedImage.src = `/gallery_images/gallery_img${i}.jpg`;
+        selectedImage.src = `/kaisa13/gallery_images/gallery_img${i}.jpg`;
     });
 
     gallery.appendChild(image);
